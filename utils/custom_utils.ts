@@ -44,6 +44,7 @@ export function iframeChangeLoad(){
     window.addEventListener('DOMAttrModified', iframeChange)
     window.addEventListener('resize', iframeChange)
     window.addEventListener('load', iframeChange)
+    window.addEventListener('scroll', iframeChange)
     window.addEventListener('click', iframeChange)
     window.addEventListener('transitionstart', iframeChange)
     window.addEventListener('transitionrun', iframeChange)
@@ -62,7 +63,6 @@ export function iframeChangeLoad(){
     const config = {
       attributes: true,
       childList: true,
-      characterData: true,
       characterData: true,
       subtree: true,
       attributeFilter: ['class', 'style']
