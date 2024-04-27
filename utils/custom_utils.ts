@@ -44,11 +44,11 @@ export function iframeChangeLoad(){
     window.addEventListener('DOMAttrModified', iframeChange)
     window.addEventListener('resize', iframeChange)
     window.addEventListener('load', iframeChange)
-    window.addEventListener('requestAnimationFrame', iframeChange)
     window.addEventListener('click', iframeChange)
     window.addEventListener('transitionstart', iframeChange)
     window.addEventListener('transitionrun', iframeChange)
     window.addEventListener('transitionend', iframeChange)
+    setInterval(iframeChange, 3000)
     // Firefox和Chrome早期版本中带有前缀
     const MutationObserver =
       window.MutationObserver || window.WebKitMutationObserver || window.MozMutationObserver
