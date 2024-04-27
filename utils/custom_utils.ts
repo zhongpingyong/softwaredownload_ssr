@@ -44,7 +44,7 @@ export function iframeChangeLoad(){
     window.addEventListener('DOMAttrModified', iframeChange)
     window.addEventListener('resize', iframeChange)
     window.addEventListener('load', iframeChange)
-    window.addEventListener('scroll', iframeChange)
+    window.addEventListener('requestAnimationFrame', iframeChange)
     window.addEventListener('click', iframeChange)
     window.addEventListener('transitionstart', iframeChange)
     window.addEventListener('transitionrun', iframeChange)
