@@ -1,0 +1,12 @@
+{
+  "extends": ["@nuxt/eslint-config"],
+  "rules": {
+    "vue/no-v-html": "off",
+    "vue/html-self-closing": [1, {
+      "html": {
+        "void": "always",
+        "normal": "always"
+      }
+    }]
+  }
+}

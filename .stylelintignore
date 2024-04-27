@@ -1,0 +1,7 @@
+/dist/*
+/public/*
+/pages/software.vue
+/pages/app.vue
+/pages/m_software.vue
+/pages/m_app.vue
+public/*
