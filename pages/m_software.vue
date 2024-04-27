@@ -130,6 +130,7 @@ import MAC from '../components/icon/MAC.vue'
 import Book from '../components/icon/Book.vue'
 import Grid from '../components/icon/Grid.vue'
 import Setting from '../components/icon/Setting.vue'
+import {iframeChangeLoad} from "~/utils/custom_utils";
 // import {updateMetaTags} from "~/utils/custom_utils";
 
 // import { isMobile, isWin } from '~/utils/custom_utils'
@@ -148,8 +149,15 @@ onMounted(() => {
   json.macPath = macPath
   json.macIntelPath = macIntelPath
   loading.value = false
-
-
+  if(!isMobile()){
+    window.location.href=window.location.href.replace('pages/m_software', 'pages/software')
+  }
+  window.addEventListener('resize', function () {
+    if(!isMobile()){
+      window.location.href=window.location.href.replace('pages/m_software', 'pages/software')
+    }
+  })
+  iframeChangeLoad()
 })
 onBeforeMount(() => {
   // const { seo } = tm('PC') as any
@@ -335,6 +343,7 @@ body {
         color: #000000;
         word-break: break-all;
         text-align: justify;
+        white-space: pre;
       }
     }
     .pc_bottom_content_img {

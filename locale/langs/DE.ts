@@ -10,9 +10,9 @@ export default {
     description:
     'LaserPecker Design Space (LDS) ist ein leistungsstarkes Werkzeug für unsere Laser Gravier- und Schneidemaschinen. Erstellen Sie mühelos Projekte mit personalisierten Gravuren, raffinierten Mustern oder präzisen Schnitten auf einer Vielzahl von Materialien.',
     titleBottom: 'Vom Konzept zur Kreation',
-    subTitleBox1: 'Schneller Einstieg mit einfacher Lernkurve',
-    subTitleBox2: 'Material-Test-Matrix für bessere Ergebnisse',
-    subTitleBox3: 'Spezifische Parametereinstellungen für jede Ebene zur präzisen Steuerung',
+    subTitleBox1: 'Schneller Einstieg\nmit einfacher Lernkurve',
+    subTitleBox2: 'Material-Test-Matrix\nfür bessere Ergebnisse',
+    subTitleBox3: 'Spezifische Parametereinstellungen\nfür jede Ebene zur präzisen Steuerung',
     winPath:
     'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/windows/LaserPecker-Design-Space-Windows-2.5.5.exe',
     macPath:

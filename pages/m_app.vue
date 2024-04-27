@@ -142,6 +142,7 @@ import Android from '../components/icon/Android.vue'
 import Apple from '../components/icon/Apple.vue'
 
 import {onBeforeMount, onMounted, ref} from 'vue'
+import {iframeChangeLoad} from "~/utils/custom_utils";
 // import { useI18n } from 'vue-i18n'
 const { tm } = useI18n()
 const img_url_pro = ref('../logo/Logo.png')
@@ -200,7 +201,15 @@ onMounted(() => {
   handleMouseenter('ios', 'pro', true)
   handleMouseenter('ios', 'community', true)
   loading.value = false
-
+  if(!isMobile()){
+    window.location.href=window.location.href.replace('pages/m_app', 'pages/app')
+  }
+  window.addEventListener("resize",function () {
+    if(!isMobile()){
+      window.location.href=window.location.href.replace('pages/m_app', 'pages/app')
+    }
+  })
+  iframeChangeLoad()
 })
 
 </script>

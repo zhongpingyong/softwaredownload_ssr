@@ -33,3 +33,40 @@ export function isIOS() {
 // export function isWin() {
 //   return navigator.platform.toUpperCase().includes('WIN')
 // }
+export function iframeChangeLoad(){
+  function iframeChange() {
+    const app = document.querySelector('body')
+    top.postMessage({ height: app.clientHeight }, '*')
+  }
+  if (self != top) {
+    window.addEventListener('DOMSubtreeModified', iframeChange)
+    window.addEventListener('DOMAttrModified', iframeChange)
+    window.addEventListener('resize', iframeChange)
+    window.addEventListener('load', iframeChange)
+    window.addEventListener('click', iframeChange)
+    window.addEventListener('transitionstart', iframeChange)
+    window.addEventListener('transitionrun', iframeChange)
+    window.addEventListener('transitionend', iframeChange)
+    // Firefox和Chrome早期版本中带有前缀
+    const MutationObserver =
+      window.MutationObserver || window.WebKitMutationObserver || window.MozMutationObserver
+
+    // 选择目标节点
+    const target = document.querySelector('#__nuxt')
+
+    // 创建观察者对象
+    const observer = new MutationObserver(iframeChange)
+
+    // 配置观察选项:
+    const config = {
+      attributes: true,
+      childList: true,
+      characterData: true,
+      subtree: true,
+      attributeFilter: ['class', 'style']
+    }
+
+    // 传入目标节点和观察选项
+    observer.observe(target, config)
+  }
+}

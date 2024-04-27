@@ -10,9 +10,9 @@ export default {
     description:
     'LaserPecker Design Space (LDS) is a powerful laser engraving and cutting software designed specifically for LaserPecker laser engravers and cutters. Easily create projects with personalized engravings, intricate patterns, or precise cuts on a variety of materials.',
     titleBottom: 'From Concept to Creation',
-    subTitleBox1: 'Quick Start with an Easy Learning Curve',
-    subTitleBox2: 'Material Test Grid for Better Results',
-    subTitleBox3: 'Multiple Layer Parameter Settings for Precision Control',
+    subTitleBox1: 'Quick Start with\nan Easy Learning Curve',
+    subTitleBox2: 'Material Test Grid\nfor Better Results',
+    subTitleBox3: 'Multiple Layer Parameter Settings\nfor Precision Control',
     winPath:
     'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/windows/LaserPecker-Design-Space-Windows-2.5.5.exe',
     macPath:

@@ -10,9 +10,9 @@ export default {
     description:
     'LaserPeckerデザインスペースは、レーザー彫刻機および切断機に適した、高度な専用ツールであります。本ツールを使用することで、様々な素材に対しパーソナライズされた彫刻、複雑なパターン、あるいは正確なカットを用いたプロジェクトを簡単に作成できます。',
     titleBottom: '構想から創造まで',
-    subTitleBox1: '簡単な学習曲線でクイックスタート',
-    subTitleBox2: '結果を向上させるための素材テストグリッド',
-    subTitleBox3: '精密なコントロールのための複数のレイヤーパラメータ設定',
+    subTitleBox1: '簡単な学習曲線で\nクイックスタート',
+    subTitleBox2: '結果を向上させるための\n素材テストグリッド',
+    subTitleBox3: '精密なコントロールのための\n複数のレイヤーパラメータ設定',
     winPath:
     'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/windows/LaserPecker-Design-Space-Windows-2.5.5.exe',
     macPath:
