@@ -85,7 +85,7 @@ export default {
     },
     android: {
       pro: {
-        appLink: 'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/android/app-google-release-laserpecker_v542.apk',
+        appLink: 'https://play.google.com/store/apps/details?id=com.hingin.lp1.hiprint',
         qrLink: '../QR/android/Android_pro_qr.png',
         latestUpgrade: 'Android v5.4.2',
         updateList: [
@@ -94,7 +94,7 @@ export default {
         ]
       },
       community: {
-        appLink: 'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/android/app-google-release-laserpecker_v436.apk',
+        appLink: 'https://play.google.com/store/apps/details?id=com.hingin.l1.hiprint',
         qrLink: '../QR/android/Android_community_qr.png',
         latestUpgrade: 'Android v4.3.6',
         updateList: [

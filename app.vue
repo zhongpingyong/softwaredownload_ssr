@@ -56,6 +56,48 @@
 
     })
   }
+  console.log('route.path: ', route.path)
+  if (route.path==='/app'){
+    if(isMobile()){
+      window.location.href=window.location.href.replace('app', 'm_app')
+    }
+    window.addEventListener("resize",function () {
+      if(isMobile()) {
+        window.location.href=window.location.href.replace('app', 'm_app')
+      }
+    })
+  }
+  if (route.path==='/m_app'){
+    if(!isMobile()){
+      window.location.href=window.location.href.replace('m_app', 'app')
+    }
+    window.addEventListener("resize",function () {
+      if(!isMobile()){
+        window.location.href=window.location.href.replace('m_app', 'app')
+      }
+    })
+  }
+  if (route.path==='/software'){
+    if(isMobile()){
+      window.location.href=window.location.href.replace('software', 'm_software')
+    }
+    window.addEventListener('resize', function () {
+      if(isMobile()){
+        window.location.href=window.location.href.replace('software', 'm_software')
+      }
+    })
+  }
+  if(route.path==='/m_software'){
+    if(!isMobile()){
+      window.location.href=window.location.href.replace('m_software', 'software')
+    }
+    window.addEventListener('resize', function () {
+      if(!isMobile()){
+        window.location.href=window.location.href.replace('m_software', 'software')
+      }
+    })
+  }
+
 </script>
 
 <style lang="scss">

@@ -200,14 +200,7 @@ onMounted(() => {
   handleMouseenter('ios', 'pro', true)
   handleMouseenter('ios', 'community', true)
   loading.value = false
-  if(isMobile()){
-    window.location.href=window.location.href.replace('app', 'm_app')
-  }
-  window.addEventListener("resize",function () {
-    if(isMobile()) {
-      window.location.href=window.location.href.replace('app', 'm_app')
-    }
-  })
+
 })
 
 </script>
@@ -225,7 +218,7 @@ body {
   flex-direction: column;
   padding: 83px 20px 0;
   .new_mobile-title {
-    font-family: Cal Sans;
+    font-family: Cal Sans,Arial;
     font-size: 36px;
     font-weight: 600;
     line-height: 35.1px;
@@ -239,7 +232,7 @@ body {
       width: 100%;
       margin-top: 27px;
       .new_mobile-content_item_title {
-        font-family: Mona-Sans;
+        font-family: Mona-Sans,Arial;
         font-size: 18px;
         font-weight: 500;
         text-align: center;
@@ -266,13 +259,13 @@ body {
             flex-direction: column;
             justify-content: space-around;
             .new_mobile-content_item_top_right_outer_title {
-              font-family: Cal Sans;
+              font-family: Cal Sans,Arial;
               font-size: 26px;
               font-weight: 600;
               color: #000000;
             }
             .new_mobile-content_item_top_right_outer_des {
-              font-family: Mona-Sans;
+              font-family: Mona-Sans,Arial;
               font-size: 20px;
               font-weight: normal;
               color: #5c5c5c;
@@ -289,7 +282,7 @@ body {
                 justify-content: center;
                 align-items: center;
                 gap: 10px;
-                font-family: Cal Sans;
+                font-family: Cal Sans,Arial;
                 font-size: 18px;
                 font-weight: 600;
                 color: #ffffff;
@@ -311,7 +304,7 @@ body {
           }
         }
         .new_mobile-content_item_bottom {
-          font-family: Mona-Sans;
+          font-family: Mona-Sans,Arial;
           font-weight: 400;
           font-size: 14px;
           line-height: 22px;

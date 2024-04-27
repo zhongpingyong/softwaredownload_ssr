@@ -130,7 +130,7 @@ import MAC from '../components/icon/MAC.vue'
 import Book from '../components/icon/Book.vue'
 import Grid from '../components/icon/Grid.vue'
 import Setting from '../components/icon/Setting.vue'
-import {updateMetaTags} from "~/utils/custom_utils";
+// import {updateMetaTags} from "~/utils/custom_utils";
 
 // import { isMobile, isWin } from '~/utils/custom_utils'
 
@@ -149,14 +149,7 @@ onMounted(() => {
   json.macIntelPath = macIntelPath
   loading.value = false
 
-  if(isMobile()){
-    window.location.href=window.location.href.replace('software', 'm_software')
-  }
-  window.addEventListener('resize', function () {
-    if(isMobile()){
-      window.location.href=window.location.href.replace('software', 'm_software')
-    }
-  })
+
 })
 onBeforeMount(() => {
   // const { seo } = tm('PC') as any
@@ -190,10 +183,10 @@ body {
 .outer {
   --page-width: 1306px;
   .CalSans {
-    font-family: 'Cal Sans';
+    font-family: 'Cal Sans',Arial;
   }
   .MonaSans {
-    font-family: Mona-Sans;
+    font-family: Mona-Sans,Arial;
   }
 }
 .pc {
@@ -264,7 +257,7 @@ body {
       order: 1;
       box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.05);
       .msg {
-        font-family: Mona-Sans;
+        font-family: Mona-Sans,Arial;
         font-size: 14px;
         font-weight: normal;
         margin-top: 3px;
@@ -291,7 +284,7 @@ body {
     }
   }
   .line_btn {
-    font-family: Mona-Sans;
+    font-family: Mona-Sans,Arial;
     font-size: 14px;
     color: #0a84ff;
     //margin-top: 21px;

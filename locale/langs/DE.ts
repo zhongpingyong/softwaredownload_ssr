@@ -6,7 +6,7 @@ export default {
       description: 'Auf dieser Seite können Sie LaserPecker PC Software für Windows & Mac herunterladen. Diese Software ist kompatibel mit allen Maschinen von LaserPecker ab der zweiten Generation wie z.B. LaserPecker 2, 3, LP4, LX1, und LX1 Max.',
     },
     subTitle: 'LaserPecker Design Space',
-    title: 'Erstellen, Anpassen, und Gestalten',
+    title: 'Erstellen, Anpassen und Gestalten',
     description:
     'LaserPecker Design Space (LDS) ist ein leistungsstarkes Werkzeug für unsere Laser Gravier- und Schneidemaschinen. Erstellen Sie mühelos Projekte mit personalisierten Gravuren, raffinierten Mustern oder präzisen Schnitten auf einer Vielzahl von Materialien.',
     titleBottom: 'Vom Konzept zur Kreation',
@@ -85,7 +85,7 @@ export default {
     },
     android: {
       pro: {
-        appLink: 'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/android/app-google-release-laserpecker_v542.apk',
+        appLink: 'https://play.google.com/store/apps/details?id=com.hingin.lp1.hiprint',
         qrLink: '../QR/android/Android_pro_qr.png',
         latestUpgrade: 'Android v5.4.2',
         updateList: [
@@ -94,7 +94,7 @@ export default {
         ]
       },
       community: {
-        appLink: 'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/android/app-google-release-laserpecker_v436.apk',
+        appLink: 'https://play.google.com/store/apps/details?id=com.hingin.l1.hiprint',
         qrLink: '../QR/android/Android_community_qr.png',
         latestUpgrade: 'Android v4.3.6',
         updateList: [
