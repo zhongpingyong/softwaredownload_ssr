@@ -6,6 +6,7 @@
     "build": "rimraf .output && nuxt build --dotenv .env.production",
     "build:dev": "rimraf .output && nuxt build --dotenv .env.developent",
     "dev": "nuxt dev --dotenv .env.developent --host",
+    "ssg": "nuxi generate",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",

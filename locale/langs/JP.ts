@@ -54,7 +54,7 @@ export default {
       keywords: 'laserpecker app, laserpecker app download, laserpecker app android, laserpecker app ios, laserpecker 4 app, laserpecker 3 app, laserpecker 2 app',
       description: 'Android および iOS 用の LaserPecker モバイルアプリをこちらからダウンロードしてください。このアプリは、LaserPecker1、2、3、LP4、LX1、LX1 Max などのすべての LaserPecker マシンと互換性があります。',
     },
-    title: 'Download LaserPecker App',
+    title: 'LaserPeckerアプリをダウンロードする',
     proTitle: 'プロバージョン',
     proAppTitle: 'LaserPeckerデザインスペース',
     proAppDes: '互換性: LP4、LX1',
