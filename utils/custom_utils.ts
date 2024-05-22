@@ -36,7 +36,7 @@ export function isIOS() {
 export function iframeChangeLoad(){
   function iframeChange() {
     const app = document.querySelector('body')
-    console.log("app.clientHeight: ",app.clientHeight)
+    // console.log("app.clientHeight: ",app.clientHeight)
     top.postMessage({ height: app.clientHeight }, '*')
   }
   if (self != top) {

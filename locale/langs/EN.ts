@@ -16,9 +16,9 @@ export default {
     winPath:
     'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/windows/LaserPecker-Design-Space-Windows-2.5.5.exe',
     macPath:
-    'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-Mac-2.5.5.dmg',
+      'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-M1-2.5.5.dmg',
     macIntelPath:
-    'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-M1-2.5.5.dmg',
+      'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-Mac-2.5.5.dmg',
     forIntelChips: 'For Intel chips',
     forAppleSilicon: 'For Apple Silicon',
     linkText1: 'Release Notes',
@@ -66,12 +66,11 @@ export default {
       pro: {
         appLink: 'https://apps.apple.com/us/app/laserpecker-design-space/id6445970960',
         qrLink: '../QR/ios/Apple_pro_qr.png',
-        latestUpgrade: 'IOS v5.4.3',
+        latestUpgrade: 'IOS v5.4.4',
         updateList: [
-          '1. Added new speed converter',
-          '2. Recommended parameter optimization',
-          '3. Optimized offset function',
-          '4. Fixed known bugs'
+          'Fixed the issue related to the [Dithering] mode: imported text images in the [Dithering] engraving mode appeared additional lines.',
+          'Fixed the issue related to the [Dithering] mode compatibility: imported images in the [Dithering] engraving mode were incompatible with the Magic Eraser function when erasing the background.',
+          'Fixed known bugs.'
         ]
       },
       community: {
@@ -79,7 +78,7 @@ export default {
         qrLink: '../QR/ios/Apple_community_qr.png',
         latestUpgrade: 'IOS v4.3.0',
         updateList: [
-          '1. Fix known problems'
+          'Fix known problems'
         ]
       }
     },
@@ -89,8 +88,8 @@ export default {
         qrLink: '../QR/android/Android_pro_qr.png',
         latestUpgrade: 'Android v5.4.2',
         updateList: [
-          '1. Added new speed converter',
-          '2. Recommended parameter optimization'
+          'Added new speed converter',
+          'Recommended parameter optimization'
         ]
       },
       community: {
@@ -98,7 +97,7 @@ export default {
         qrLink: '../QR/android/Android_community_qr.png',
         latestUpgrade: 'Android v4.3.6',
         updateList: [
-          '1. Fix known problems'
+          'Fix known problems'
         ]
       }
     }

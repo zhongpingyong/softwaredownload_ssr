@@ -64,13 +64,15 @@
                 {{ $t('APP.latestUpgradeText') }}：
                 <span>{{ latestUpgrade_pro }}</span>
               </div>
-              <div
-                v-for="item of updateList_pro"
-                :key="item"
-                class="new_mobile-content_item_bottom_li"
-              >
-                {{ item }}
-              </div>
+              <ol>
+                <li
+                  v-for="item of updateList_pro"
+                  :key="item"
+                  class="new_mobile-content_item_bottom_li"
+                >
+                  {{ item }}
+                </li>
+              </ol>
             </div>
           </div>
         </div>
@@ -122,13 +124,15 @@
                 {{ $t('APP.latestUpgradeText') }}：
                 <span>{{ latestUpgrade_community }}</span>
               </div>
-              <div
-                v-for="item of updateList_community"
-                :key="item"
-                class="new_mobile-content_item_bottom_li"
-              >
-                {{ item }}
-              </div>
+              <ol>
+                <li
+                  v-for="item of updateList_community"
+                  :key="item"
+                  class="new_mobile-content_item_bottom_li"
+                >
+                  {{ item }}
+                </li>
+              </ol>
             </div>
           </div>
         </div>

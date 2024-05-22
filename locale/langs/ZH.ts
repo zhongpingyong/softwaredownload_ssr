@@ -16,9 +16,9 @@ export default {
     winPath:
     'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/windows/LaserPecker-Design-Space-Windows-2.5.5.exe',
     macPath:
-    'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-Mac-2.5.5.dmg',
+      'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-M1-2.5.5.dmg',
     macIntelPath:
-    'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-M1-2.5.5.dmg',
+      'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-Mac-2.5.5.dmg',
     forIntelChips: 'For Intel chips',
     forAppleSilicon: 'For Apple Silicon',
     lineBtnList: [
@@ -58,13 +58,11 @@ export default {
       pro: {
         appLink: 'https://apps.apple.com/us/app/laserpecker/id1565790196',
         qrLink: '../QR/ios/Apple_pro_qr.png',
-        latestUpgrade: 'IOS v5.4.3',
+        latestUpgrade: 'IOS v5.4.4',
         updateList: [
-          '1. 添加了速度转换提示气泡。',
-          '2. 新增固件升级、超时检测弹窗。',
-          '3. 外部导入的图像元素的默认抖动算法。',
-          '4. 默认情况下，雕刻图层显示所有元素。',
-          '5. 更新了“应用更新”弹出窗口样式。'
+          '修复了用户反馈的抖动雕刻模式问题: 在导入文字图像并选择[抖动]模式雕刻时，文字的下方和右侧出现的额外的线。',
+          '修复了用户反馈的抖动雕刻模式适配问题：在导入图像并选择[抖动]模式雕刻时，[魔术橡皮擦]功能出现的异常。',
+          '修复其他已知问题。'
         ]
       },
       community: {
@@ -72,11 +70,11 @@ export default {
         qrLink: '../QR/ios/Apple_community_qr.png',
         latestUpgrade: 'IOS v5.4.3',
         updateList: [
-          '1. 添加了速度转换提示气泡。',
-          '2. 新增固件升级、超时检测弹窗。',
-          '3. 外部导入的图像元素的默认抖动算法。',
-          '4. 默认情况下，雕刻图层显示所有元素。',
-          '5. 更新了“应用更新”弹出窗口样式。'
+          '添加了速度转换提示气泡。',
+          '新增固件升级、超时检测弹窗。',
+          '外部导入的图像元素的默认抖动算法。',
+          '默认情况下，雕刻图层显示所有元素。',
+          '更新了“应用更新”弹出窗口样式。'
         ]
       }
     },
@@ -86,11 +84,11 @@ export default {
         qrLink: '../QR/android/Android_pro_qr.png',
         latestUpgrade: 'Android v5.4.3',
         updateList: [
-          '1. 添加了速度转换提示气泡。',
-          '2. 新增固件升级、超时检测弹窗。',
-          '3. 外部导入的图像元素的默认抖动算法。',
-          '4. 默认情况下，雕刻图层显示所有元素。',
-          '5. 更新了“应用更新”弹出窗口样式。'
+          '添加了速度转换提示气泡。',
+          '新增固件升级、超时检测弹窗。',
+          '外部导入的图像元素的默认抖动算法。',
+          '默认情况下，雕刻图层显示所有元素。',
+          '更新了“应用更新”弹出窗口样式。'
         ]
       },
       community: {
@@ -98,11 +96,11 @@ export default {
         qrLink: '../QR/android/Android_community_qr.png',
         latestUpgrade: 'Android v5.4.3',
         updateList: [
-          '1. 添加了速度转换提示气泡。',
-          '2. 新增固件升级、超时检测弹窗。',
-          '3. 外部导入的图像元素的默认抖动算法。',
-          '4. 默认情况下，雕刻图层显示所有元素。',
-          '5. 更新了“应用更新”弹出窗口样式。'
+          '添加了速度转换提示气泡。',
+          '新增固件升级、超时检测弹窗。',
+          '外部导入的图像元素的默认抖动算法。',
+          '默认情况下，雕刻图层显示所有元素。',
+          '更新了“应用更新”弹出窗口样式。'
         ]
       }
     }

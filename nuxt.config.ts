@@ -167,7 +167,7 @@ export default defineNuxtConfig({
     },
   },
   devServer: {
-    port: 8848
+    port: 8849
   },
   build: {
     transpile: ['sharp']
