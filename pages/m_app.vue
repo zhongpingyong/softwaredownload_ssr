@@ -58,6 +58,17 @@
                 </div>
               </div>
             </div>
+            <div class="new_mobile-content_item_middle">
+              {{$t('APP.proTip')}}
+            </div>
+            <a :href="$t('APP.proTipLink')" style="display: contents;" target="_blank">
+              <div class="new_mobile-content_item_middle_link_button">
+                <span>{{$t('APP.proTipLinkTxt')}}</span>
+                <arrow_right />
+              </div>
+            </a>
+
+
             <hr style="transform: scaleY(0.5); margin: 30px 0" />
             <div class="new_mobile-content_item_bottom">
               <div class="new_mobile-content_item_bottom_title">
@@ -144,6 +155,7 @@
 <script lang="ts" setup>
 import Android from '../components/icon/Android.vue'
 import Apple from '../components/icon/Apple.vue'
+import arrow_right from '../components/icon/arrow_right.vue'
 
 import {onBeforeMount, onMounted, ref} from 'vue'
 import {iframeChangeLoad} from "~/utils/custom_utils";
@@ -314,6 +326,30 @@ body {
                 }
               }
             }
+          }
+        }
+        .new_mobile-content_item_middle{
+          font-family: Mona-Sans,Arial;
+          font-size: 14px;
+          color: #5C5C5C;
+          margin-top: 42px;
+          line-height: 20px;
+        }
+        .new_mobile-content_item_middle_link_button{
+          border-radius: 5px;
+          background-color: #F1F1F1;
+          height: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: Mona-Sans,Arial;
+          font-size: 14px;
+          color: #1C1C1C;
+          margin-top: 8px;
+          gap: 10px;
+          svg{
+            width: 14px;
+            height: 14px;
           }
         }
         .new_mobile-content_item_bottom {

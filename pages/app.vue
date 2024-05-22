@@ -58,19 +58,16 @@
                 </div>
               </div>
             </div>
+            <div class="new_mobile-content_item_middle">
+              {{$t('APP.proTip')}}
+            </div>
+            <a class="new_mobile-content_item_middle_link" :href="$t('APP.proTipLink')" target="_blank">{{$t('APP.proTipLinkTxt')}}</a>
             <hr style="transform: scaleY(0.5); margin: 30px 0" />
             <div class="new_mobile-content_item_bottom">
               <div class="new_mobile-content_item_bottom_title">
                 {{ $t('APP.latestUpgradeText') }}：
                 <span>{{ latestUpgrade_pro }}</span>
               </div>
-              <!--              <div-->
-              <!--                v-for="item of updateList_pro"-->
-              <!--                :key="item"-->
-              <!--                class="new_mobile-content_item_bottom_li"-->
-              <!--              >-->
-              <!--                {{ item }}-->
-              <!--              </div>-->
               <ol>
                 <li
                   v-for="item of updateList_pro"
@@ -322,6 +319,20 @@ body {
               }
             }
           }
+        }
+        .new_mobile-content_item_middle{
+          font-family: Mona-Sans,Arial;
+          font-size: 14px;
+          color: #5C5C5C;
+          margin-top: 42px;
+          line-height: 20px;
+        }
+        .new_mobile-content_item_middle_link{
+          display: inline-block;
+          font-family: Mona-Sans,Arial;
+          font-size: 14px;
+          color: #069AF5;
+          margin-top: 8px;
         }
         .new_mobile-content_item_bottom {
           font-family: Mona-Sans,Arial;

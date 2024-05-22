@@ -57,10 +57,13 @@ export default {
     title: 'Download LaserPecker App',
     proTitle: 'Pro Verison',
     proAppTitle: 'LaserPecker Design Space',
-    proAppDes: 'Compatibility: LP4, LX1',
+    proAppDes: 'Compatibility: LP4, LP3, LP2, LX Series',
+    proTip: 'Note: please upgrade your machine firmware to the latest version to ensure full compatibility with the latest app release.',
+    proTipLink:'https://support.laserpecker.net/hc/en-us/articles/9793175374735-Firmware-Compatibility',
+    proTipLinkTxt:'Check the firmware compatibility',
     communityTitle: 'Community Version',
     communityAppTitle: 'LaserPecker',
-    communityAppDes: 'Compatibility: LP3, LP2, LP1 series',
+    communityAppDes: 'Compatibility: LP1 series, LP2, LP3',
     latestUpgradeText:'Latest Upgrade',
     ios: {
       pro: {
