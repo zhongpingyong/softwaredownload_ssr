@@ -9,6 +9,7 @@ if (process.env.NODE_ENV === 'production') {
   })
 }
 export default defineNuxtConfig({
+  telemetry: true,
   ssr: false,
   devtools: { enabled: false },
   sourcemap: {
