@@ -3,6 +3,9 @@ let timer: any
 // mobile可以访问的页面
 const paths = ['index','app','software','m_app','m_software'] // 'resource',
 export default defineNuxtRouteMiddleware(async (to, from) => {
+  if (to.path === '/') {
+    return navigateTo('/app')
+  }
   const store = useUserStore()
   const { getMessageNumber } = useMessageStore()
   const _path: any = to.name || to.path
