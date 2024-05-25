@@ -283,7 +283,7 @@ body {
             }
             .new_mobile-content_item_top_right_outer_des {
               font-family: Mona-Sans,Arial;
-              font-size: 20px;
+              font-size: 18px;
               font-weight: normal;
               color: #5c5c5c;
             }

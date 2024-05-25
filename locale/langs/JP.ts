@@ -57,7 +57,7 @@ export default {
     title: 'LaserPeckerアプリをダウンロードする',
     proTitle: 'プロバージョン',
     proAppTitle: 'LaserPeckerデザインスペース',
-    proAppDes: '互換性: LP4、LX1',
+    proAppDes: '互換性: LP4、LP3、LP2、LX1シリーズ',
     proTip: '最新のアプリバージョンとの完全な互換性を確保するために、マシンのファームウェアを最新バージョンにアップグレードしてください。',
     proTipLink:'https://support.laserpecker.net/hc/en-us/articles/9793175374735-Firmware-Compatibility',
     proTipLinkTxt:'ファームウェアの互換性を確認してください。',
