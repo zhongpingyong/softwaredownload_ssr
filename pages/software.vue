@@ -131,6 +131,14 @@ import Book from '../components/icon/Book.vue'
 import Grid from '../components/icon/Grid.vue'
 import Setting from '../components/icon/Setting.vue'
 import {iframeChangeLoad} from "~/utils/custom_utils";
+useHead(() => ({
+  link: [
+    {
+      rel: 'canonical',
+      href: 'https://software.laserpecker.net/pages/software/',
+    },
+  ],
+}))
 // import {updateMetaTags} from "~/utils/custom_utils";
 
 // import { isMobile, isWin } from '~/utils/custom_utils'

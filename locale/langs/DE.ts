@@ -55,7 +55,7 @@ export default {
       description: 'Auf dieser Seite können Sie LaserPecker Handyapp für Android & iOS herunterladen. Diese App ist kompatibel mit allen Maschinen von LaserPecker wie z.B. LaserPecker 1, 2, 3, LP4, LX1, und LX1 Max.',
     },
     title: 'LaserPecker App herunterladen',
-    proTitle: 'Pro Verison',
+    proTitle: 'Pro Version',
     proAppTitle: 'LaserPecker Design Space',
     proAppDes: 'Kompatibilität: LP4, LP3, LP2, LX Serien',
     proTip: 'Hinweis: Bitte aktualisieren Sie die Firmware Ihres Geräts auf die neueste Version, um volle Kompatibilität mit der neuesten App-Version zu gewährleisten.',

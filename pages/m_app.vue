@@ -159,6 +159,14 @@ import arrow_right from '../components/icon/arrow_right.vue'
 
 import {onBeforeMount, onMounted, ref} from 'vue'
 import {iframeChangeLoad} from "~/utils/custom_utils";
+useHead(() => ({
+  link: [
+    {
+      rel: 'canonical',
+      href: 'https://software.laserpecker.net/pages/app/',
+    },
+  ],
+}))
 // import { useI18n } from 'vue-i18n'
 const { tm } = useI18n()
 const img_url_pro = ref('../logo/Logo.png')
