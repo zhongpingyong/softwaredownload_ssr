@@ -57,7 +57,7 @@ export default {
     title: 'Download LaserPecker App',
     proTitle: 'Pro Version',
     proAppTitle: 'LaserPecker Design Space',
-    proAppDes: 'Compatibility: LP4, LP3, LP2, LX Series',
+    proAppDes: 'Compatibility: LP5, LP4, LP3, LP2, LX Series',
     proTip: 'Note: please upgrade your machine firmware to the latest version to ensure full compatibility with the latest app release.',
     proTipLink:'https://support.laserpecker.net/hc/en-us/articles/9793175374735-Firmware-Compatibility',
     proTipLinkTxt:'Check the firmware compatibility',
@@ -69,11 +69,14 @@ export default {
       pro: {
         appLink: 'https://apps.apple.com/us/app/laserpecker-design-space/id6445970960',
         qrLink: '../QR/ios/Apple_pro_qr.png',
-        latestUpgrade: 'IOS v5.4.4',
+        latestUpgrade: 'IOS v5.5.0',
         updateList: [
-          'Fixed the issue related to the [Dithering] mode: imported text images in the [Dithering] engraving mode appeared additional lines.',
-          'Fixed the issue related to the [Dithering] mode compatibility: imported images in the [Dithering] engraving mode were incompatible with the Magic Eraser function when erasing the background.',
-          'Fixed known bugs.'
+          'New Advanced Engraving Workflow.',
+          'Variable Text.',
+          'Real-time Preview for Multiple Vector Files.',
+          '3D Grayscale Embossing.',
+          'Quick Engraving from USB.',
+          '\'Metal Cut\' Processing Type.',
         ]
       },
       community: {
@@ -89,10 +92,14 @@ export default {
       pro: {
         appLink: 'https://play.google.com/store/apps/details?id=com.hingin.lp1.hiprint',
         qrLink: '../QR/android/Android_pro_qr.png',
-        latestUpgrade: 'Android v5.4.2',
+        latestUpgrade: 'Android v5.5.0',
         updateList: [
-          'Added new speed converter',
-          'Recommended parameter optimization'
+          'New Advanced Engraving Workflow.',
+          'Variable Text.',
+          'Real-time Preview for Multiple Vector Files.',
+          '3D Grayscale Embossing.',
+          'Quick Engraving from USB.',
+          '\'Metal Cut\' Processing Type.',
         ]
       },
       community: {

@@ -58,10 +58,9 @@ export default {
       pro: {
         appLink: 'https://apps.apple.com/us/app/laserpecker/id1565790196',
         qrLink: '../QR/ios/Apple_pro_qr.png',
-        latestUpgrade: 'IOS v5.4.4',
+        latestUpgrade: 'IOS v5.4.5',
         updateList: [
-          '修复了用户反馈的抖动雕刻模式问题: 在导入文字图像并选择[抖动]模式雕刻时，文字的下方和右侧出现的额外的线。',
-          '修复了用户反馈的抖动雕刻模式适配问题：在导入图像并选择[抖动]模式雕刻时，[魔术橡皮擦]功能出现的异常。',
+          '修复模式设置界面数据拉取失败的问题。',
           '修复其他已知问题。'
         ]
       },
