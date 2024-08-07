@@ -71,12 +71,14 @@ export default {
         qrLink: '../QR/ios/Apple_pro_qr.png',
         latestUpgrade: 'IOS v5.5.0',
         updateList: [
-          'New Advanced Engraving Workflow.',
-          'Variable Text.',
-          'Real-time Preview for Multiple Vector Files.',
-          '3D Grayscale Embossing.',
-          'Quick Engraving from USB.',
-          '\'Metal Cut\' Processing Type.',
+          'New Advanced engraving workflow for LP4/LP5.',
+          'Added \'Variable Text\' feature for LP4/LP5.',
+          'Added Real-time preview feature for multiple vector files for LP5.',
+          'Added 3D grayscale embossing feature for LP5.',
+          'Added quick engraving from USB flash drive feature for LP5.',
+          'Added \'Metal Cut\' processing type for LP5, in addition to the existing \'Engrave\' and \'Cut\' functions.',
+          'Fixed the issue of incorrect LX1 Max engraving area after the last IOS hotfix.',
+          'Fixed and unified the LaserPecker account login issue across different platforms.',
         ]
       },
       community: {
@@ -94,12 +96,14 @@ export default {
         qrLink: '../QR/android/Android_pro_qr.png',
         latestUpgrade: 'Android v5.5.0',
         updateList: [
-          'New Advanced Engraving Workflow.',
-          'Variable Text.',
-          'Real-time Preview for Multiple Vector Files.',
-          '3D Grayscale Embossing.',
-          'Quick Engraving from USB.',
-          '\'Metal Cut\' Processing Type.',
+          'New Advanced engraving workflow.',
+          'Added \'Variable Text\' feature.',
+          'Added Real-time preview feature for multiple vector files.',
+          'Added 3D grayscale embossing feature.',
+          'Added quick engraving from USB flash drive feature.',
+          'Added \'Metal Cut\' processing type, in addition to the existing \'Engrave\' and \'Cut\' functions.',
+          'Fixed the issue when preview delays a few seconds through App.',
+          'Fixed and unified the LaserPecker account login issue across different platforms.',
         ]
       },
       community: {
