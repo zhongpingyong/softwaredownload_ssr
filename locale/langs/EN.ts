@@ -14,11 +14,11 @@ export default {
     subTitleBox2: 'Material Test Grid\nfor Better Results',
     subTitleBox3: 'Multiple Layer Parameter Settings\nfor Precision Control',
     winPath:
-    'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/windows/LaserPecker-Design-Space-Windows-2.6.0.exe',
+    'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/windows/LaserPecker-Design-Space-Windows-2.6.1.exe',
     macPath:
-      'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-M1-2.6.0.dmg',
+      'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-M1-2.6.1.dmg',
     macIntelPath:
-      'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-Mac-2.6.0.dmg',
+      'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-Mac-2.6.1.dmg',
     forIntelChips: 'For Intel chips',
     forAppleSilicon: 'For Apple Silicon',
     linkText1: 'Release Notes',
@@ -69,10 +69,18 @@ export default {
       pro: {
         appLink: 'https://apps.apple.com/us/app/laserpecker-design-space/id6445970960',
         qrLink: '../QR/ios/Apple_pro_qr.png',
-        latestUpgrade: 'IOS v5.5.0',
+        latestUpgrade: 'IOS v5.6.1',
         updateList: [
-          'Fixed the issue of incorrect LX1 Max engraving area after the last IOS hotfix.',
-          'Fixed and unified the LaserPecker account login issue across different platforms.',
+          'New Advanced engraving workflow for LP4/LP5.',
+          'Added \'Variable Text\' feature for LP4/LP5.',
+          'Added Real-time preview feature for multiple vector files for LP5.',
+          'Added 3D grayscale embossing feature for LP5.',
+          'Added quick engraving from USB flash drive feature for LP5.',
+          'Added \'Metal Cut\' processing type for LP5, in addition to the existing \'Engrave\' and \'Cut\' functions.',
+          'Added Recommended engraving parameters for LP5.',
+          'Added Dual red spot calibration guide for LP5.',
+          'Added 3D grayscale embossing example files in Clipart for LP5.',
+          'Added issue & feedback portal.',
         ]
       },
       community: {
@@ -88,10 +96,18 @@ export default {
       pro: {
         appLink: 'https://play.google.com/store/apps/details?id=com.hingin.lp1.hiprint',
         qrLink: '../QR/android/Android_pro_qr.png',
-        latestUpgrade: 'Android v5.5.0',
+        latestUpgrade: 'Android v5.6.1',
         updateList: [
-          'Fixed the issue when preview delays a few seconds through App.',
-          'Fixed and unified the LaserPecker account login issue across different platforms.',
+          'New Advanced engraving workflow for LP4/LP5.',
+          'Added \'Variable Text\' feature for LP4/LP5.',
+          'Added Real-time preview feature for multiple vector files for LP5.',
+          'Added 3D grayscale embossing feature for LP5.',
+          'Added quick engraving from USB flash drive feature for LP5.',
+          'Added \'Metal Cut\' processing type for LP5, in addition to the existing \'Engrave\' and \'Cut\' functions.',
+          'Added Recommended engraving parameters for LP5.',
+          'Added Dual red spot calibration guide for LP5.',
+          'Added 3D grayscale embossing example files in Clipart for LP5.',
+          'Optimized help and support portal.',
         ]
       },
       community: {
