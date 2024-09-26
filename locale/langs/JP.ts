@@ -88,9 +88,18 @@ export default {
       pro: {
         appLink: 'https://play.google.com/store/apps/details?id=com.hingin.lp1.hiprint',
         qrLink: '../QR/android/Android_pro_qr.png',
-        latestUpgrade: 'Android v5.6.2',
+        latestUpgrade: 'Android v5.6.1',
         updateList: [
-          'Update translations'
+          'New Advanced engraving workflow for LP4/LP5.',
+          'Added \'Variable Text\' feature for LP4/LP5.',
+          'Added Real-time preview feature for multiple vector files for LP5.',
+          'Added 3D grayscale embossing feature for LP5.',
+          'Added quick engraving from USB flash drive feature for LP5.',
+          'Added \'Metal Cut\' processing type for LP5, in addition to the existing \'Engrave\' and \'Cut\' functions.',
+          'Added Recommended engraving parameters for LP5.',
+          'Added Dual red spot calibration guide for LP5.',
+          'Added 3D grayscale embossing example files in Clipart for LP5.',
+          'Optimized help and support portal.',
         ]
       },
       community: {
