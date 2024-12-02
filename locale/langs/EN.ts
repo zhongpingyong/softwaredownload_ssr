@@ -14,11 +14,11 @@ export default {
     subTitleBox2: 'Material Test Grid\nfor Better Results',
     subTitleBox3: 'Multiple Layer Parameter Settings\nfor Precision Control',
     winPath:
-    'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/windows/LaserPecker-Design-Space-Windows-2.6.1.exe',
+    'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/windows/LaserPecker-Design-Space-Windows-2.7.0.exe',
     macPath:
-      'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-M1-2.6.1.dmg',
+      'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-M1-2.7.0.dmg',
     macIntelPath:
-      'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-Mac-2.6.1.dmg',
+      'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-Mac-2.7.0.dmg',
     forIntelChips: 'For Intel chips',
     forAppleSilicon: 'For Apple Silicon',
     linkText1: 'Release Notes',
@@ -69,10 +69,17 @@ export default {
       pro: {
         appLink: 'https://apps.apple.com/us/app/laserpecker-design-space/id6445970960',
         qrLink: '../QR/ios/Apple_pro_qr.png',
-        latestUpgrade: 'IOS v5.6.2',
+        latestUpgrade: 'IOS v5.8.0',
         updateList: [
-          'Update translations',
-          'Fix known issues',
+          'Added camera function for the Safety Enclosure.',
+          'Added semi-automatic focusing for the Safety Enclosure.',
+          'Added settings for fan exhaust time, fan speed, and floodlight brightness in the Safety Enclosure.',
+          'Optimized copywriting.',
+          'Fixed the issue where imported images are now default processed as dithering.',
+          'Fixed the issue where errors occurred after copying grouped elements.',
+          'Fixed the display issue with \'Holiday\' design files in Clipart.',
+          'Fixed the issue where the Graffiti edge on the canvas displayed incorrectly.',
+          'Fixed other known bugs.',
         ]
       },
       community: {
@@ -88,18 +95,14 @@ export default {
       pro: {
         appLink: 'https://play.google.com/store/apps/details?id=com.hingin.lp1.hiprint',
         qrLink: '../QR/android/Android_pro_qr.png',
-        latestUpgrade: 'Android v5.6.1',
+        latestUpgrade: 'Android v5.8.0',
         updateList: [
-          'New Advanced engraving workflow for LP4/LP5.',
-          'Added \'Variable Text\' feature for LP4/LP5.',
-          'Added Real-time preview feature for multiple vector files for LP5.',
-          'Added 3D grayscale embossing feature for LP5.',
-          'Added quick engraving from USB flash drive feature for LP5.',
-          'Added \'Metal Cut\' processing type for LP5, in addition to the existing \'Engrave\' and \'Cut\' functions.',
-          'Added Recommended engraving parameters for LP5.',
-          'Added Dual red spot calibration guide for LP5.',
-          'Added 3D grayscale embossing example files in Clipart for LP5.',
-          'Optimized help and support portal.',
+          'Added camera function for the Safety Enclosure',
+          'Added semi-automatic focusing for the Safety Enclosure.',
+          'Added settings for fan exhaust time, fan speed, and floodlight brightness in the Safety Enclosure.',
+          'Optimized copywriting.',
+          'Optimized UI experience of material test array.',
+          'Fixed other known bugs.',
         ]
       },
       community: {
