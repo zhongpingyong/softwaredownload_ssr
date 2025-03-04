@@ -14,11 +14,11 @@ export default {
     subTitleBox2: '結果を向上させるための\n素材テストグリッド',
     subTitleBox3: '精密なコントロールのための\n複数のレイヤーパラメータ設定',
     winPath:
-    'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/windows/LaserPecker-Design-Space-Windows-2.7.0.exe',
+    'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/windows/LaserPecker-Design-Space-Windows-2.7.1.exe',
     macPath:
-      'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-M1-2.7.0.dmg',
+      'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-M1-2.7.1.dmg',
     macIntelPath:
-      'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-Mac-2.7.0.dmg',
+      'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-Mac-2.7.1.dmg',
     forIntelChips: 'For Intel chips',
     forAppleSilicon: 'For Apple Silicon',
     linkText1: 'Release Notes',
@@ -69,17 +69,13 @@ export default {
       pro: {
         appLink: 'https://apps.apple.com/us/app/laserpecker-design-space/id6445970960',
         qrLink: '../QR/ios/Apple_pro_qr.png',
-        latestUpgrade: 'IOS v5.8.0',
+        latestUpgrade: 'IOS v5.8.1',
         updateList: [
-          'Added camera function for the Safety Enclosure.',
-          'Added semi-automatic focusing for the Safety Enclosure.',
-          'Added settings for fan exhaust time, fan speed, and floodlight brightness in the Safety Enclosure.',
-          'Optimized copywriting.',
-          'Fixed the issue where imported images are now default processed as dithering.',
-          'Fixed the issue where errors occurred after copying grouped elements.',
-          'Fixed the display issue with \'Holiday\' design files in Clipart.',
-          'Fixed the issue where the Graffiti edge on the canvas displayed incorrectly.',
-          'Fixed other known bugs.',
+          'Fixed the camera template offset issue for the Safety Enclosure.',
+          'Fixed the issue of blank display when importing SVG files.',
+          'Fixed the issue in ungrouping and re-grouping SVG files.',
+          'Fixed the issue with the "Exclude Selection" function resulting in an error effect.',
+          'Fixed known bugs.',
         ]
       },
       community: {
@@ -95,14 +91,10 @@ export default {
       pro: {
         appLink: 'https://play.google.com/store/apps/details?id=com.hingin.lp1.hiprint',
         qrLink: '../QR/android/Android_pro_qr.png',
-        latestUpgrade: 'Android v5.8.0',
+        latestUpgrade: 'Android v5.8.1',
         updateList: [
-          'Added camera function for the Safety Enclosure',
-          'Added semi-automatic focusing for the Safety Enclosure.',
-          'Added settings for fan exhaust time, fan speed, and floodlight brightness in the Safety Enclosure.',
-          'Optimized copywriting.',
-          'Optimized UI experience of material test array.',
-          'Fixed other known bugs.',
+          'Fixed the issue of misalignment and overlap when importing SVG files.',
+          'Fixed known bugs.',
         ]
       },
       community: {
