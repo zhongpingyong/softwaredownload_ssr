@@ -69,7 +69,7 @@ export default {
       pro: {
         appLink: 'https://apps.apple.com/us/app/laserpecker-design-space/id6445970960',
         qrLink: '../QR/ios/Apple_pro_qr.png',
-        latestUpgrade: 'IOS v5.8.1',
+        latestUpgrade: 'IOS v5.8.3',
         updateList: [
           'Fixed the camera template offset issue for the Safety Enclosure.',
           'Fixed the issue of blank display when importing SVG files.',
