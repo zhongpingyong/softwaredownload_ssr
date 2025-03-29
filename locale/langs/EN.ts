@@ -89,9 +89,10 @@ export default {
       pro: {
         appLink: 'https://play.google.com/store/apps/details?id=com.hingin.lp1.hiprint',
         qrLink: '../QR/android/Android_pro_qr.png',
-        latestUpgrade: 'Android v5.8.1',
+        latestUpgrade: 'Android v5.8.5',
         updateList: [
-          'Fixed the issue of misalignment and overlap when importing SVG files.',
+          'Added support for Russian and Portuguese languages.',
+          'Optimize existing localized languages.',
           'Fixed known bugs.',
         ]
       },
