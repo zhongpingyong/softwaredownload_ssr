@@ -69,13 +69,11 @@ export default {
       pro: {
         appLink: 'https://apps.apple.com/us/app/laserpecker-design-space/id6445970960',
         qrLink: '../QR/ios/Apple_pro_qr.png',
-        latestUpgrade: 'IOS v5.8.3',
+        latestUpgrade: 'IOS v5.8.5',
         updateList: [
-          'Fixed the camera template offset issue for the Safety Enclosure.',
-          'Fixed the issue of blank display when importing SVG files.',
-          'Fixed the issue in ungrouping and re-grouping SVG files.',
-          'Fixed the issue with the "Exclude Selection" function resulting in an error effect.',
-          'Fixed known bugs.',
+          'ロシア語とポルトガル語に対応しました',
+          '既存のローカライズ言語を最適化しました',
+          'その他の既知の問題を修正しました',
         ]
       },
       community: {

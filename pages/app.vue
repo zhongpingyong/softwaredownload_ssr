@@ -37,7 +37,7 @@
                   {{ $t('APP.proAppDes') }}
                 </div>
                 <div class="new_mobile-content_item_top_right_outer_buttons">
-                  <div
+                  <button
                     class="new_mobile-content_item_top_right_outer_button"
                     @click="handleOpen('ios', 'pro')"
                     @mouseenter="handleMouseenter('ios', 'pro')"
@@ -45,8 +45,8 @@
                   >
                     <Apple />
                     App Store
-                  </div>
-                  <div
+                  </button>
+                  <button
                     class="new_mobile-content_item_top_right_outer_button"
                     @click="handleOpen('android', 'pro')"
                     @mouseenter="handleMouseenter('android', 'pro')"
@@ -54,7 +54,7 @@
                   >
                     <Android />
                     Android
-                  </div>
+                  </button>
                 </div>
               </div>
             </div>
@@ -101,7 +101,7 @@
                   {{ $t('APP.communityAppDes') }}
                 </div>
                 <div class="new_mobile-content_item_top_right_outer_buttons">
-                  <div
+                  <button
                     class="new_mobile-content_item_top_right_outer_button"
                     @click="handleOpen('ios', 'community')"
                     @mouseenter="handleMouseenter('ios', 'community')"
@@ -109,8 +109,8 @@
                   >
                     <Apple />
                     App Store
-                  </div>
-                  <div
+                  </button>
+                  <button
                     class="new_mobile-content_item_top_right_outer_button"
                     @click="handleOpen('android', 'community')"
                     @mouseenter="handleMouseenter('android', 'community')"
@@ -118,7 +118,7 @@
                   >
                     <Android />
                     Android
-                  </div>
+                  </button>
                 </div>
               </div>
             </div>
@@ -299,6 +299,7 @@ body {
               display: flex;
               gap: 10px;
               .new_mobile-content_item_top_right_outer_button {
+                border: none;
                 width: 170px;
                 height: 45px;
                 background: linear-gradient(0deg, #1f1f1f, #1f1f1f), #ffffff;
