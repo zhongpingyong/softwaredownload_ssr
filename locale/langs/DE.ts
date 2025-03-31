@@ -14,11 +14,11 @@ export default {
     subTitleBox2: 'Material-Test-Matrix\nfür bessere Ergebnisse',
     subTitleBox3: 'Spezifische Parametereinstellungen\nfür jede Ebene zur präzisen Steuerung',
     winPath:
-    'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/windows/LaserPecker-Design-Space-Windows-2.7.1.exe',
+    'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/windows/LaserPecker-Design-Space-Windows-2.7.2.exe',
     macPath:
-    'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-M1-2.7.1.dmg',
+    'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-M1-2.7.2.dmg',
     macIntelPath:
-    'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-Mac-2.7.1.dmg',
+    'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-Mac-2.7.2.dmg',
     forIntelChips: 'Für Intel-Chips',
     forAppleSilicon: 'Für Apple-Chips',
     linkText1: 'Versionshinweise',

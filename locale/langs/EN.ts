@@ -14,11 +14,11 @@ export default {
     subTitleBox2: 'Material Test Grid\nfor Better Results',
     subTitleBox3: 'Multiple Layer Parameter Settings\nfor Precision Control',
     winPath:
-    'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/windows/LaserPecker-Design-Space-Windows-2.7.1.exe',
+    'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/windows/LaserPecker-Design-Space-Windows-2.7.2.exe',
     macPath:
-      'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-M1-2.7.1.dmg',
+      'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-M1-2.7.2.dmg',
     macIntelPath:
-      'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-Mac-2.7.1.dmg',
+      'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-Mac-2.7.2.dmg',
     forIntelChips: 'For Intel chips',
     forAppleSilicon: 'For Apple Silicon',
     linkText1: 'Release Notes',
