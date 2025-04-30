@@ -14,11 +14,11 @@ export default {
     subTitleBox2: 'Material-Test-Matrix\nfür bessere Ergebnisse',
     subTitleBox3: 'Spezifische Parametereinstellungen\nfür jede Ebene zur präzisen Steuerung',
     winPath:
-    'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/windows/LaserPecker-Design-Space-Windows-2.7.2.exe',
+    'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/windows/LaserPecker-Design-Space-Windows-2.8.0.exe',
     macPath:
-    'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-M1-2.7.2.dmg',
+    'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-M1-2.8.0.dmg',
     macIntelPath:
-    'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-Mac-2.7.2.dmg',
+    'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-Mac-2.8.0.dmg',
     forIntelChips: 'Für Intel-Chips',
     forAppleSilicon: 'Für Apple-Chips',
     linkText1: 'Versionshinweise',
@@ -69,11 +69,15 @@ export default {
       pro: {
         appLink: 'https://apps.apple.com/us/app/laserpecker-design-space/id6445970960',
         qrLink: '../QR/ios/Apple_pro_qr.png',
-        latestUpgrade: 'IOS v5.8.5',
+        latestUpgrade: 'IOS v5.9.0',
         updateList: [
-          'Russisch und Portugiesisch hinzugefügt',
-          'Bestehende Übersetzungen und Lokalisierungen optimiert',
-          'Weitere bekannte Probleme behoben',
+          'Verbesserte Lasersicherheitsfunktionen für LaserPecker-Produkte.',
+          'Lokalisierung optimiert.',
+          'Anzeige der Frequenzeinheit in den LP5-Parametereinstellungen hinzugefügt.',
+          'Problem mit dem Verlust der Kameravorlage im Sicherheitsgehäuse behoben.',
+          'Problem mit der kontinuierlichen Höhensteuerung des elektrischen Ständers behoben.',
+          'Anzeigefehler beim Textstil "Hohl" behoben.',
+          'Bekannte Fehler behoben.',
         ]
       },
       community: {
@@ -89,11 +93,14 @@ export default {
       pro: {
         appLink: 'https://play.google.com/store/apps/details?id=com.hingin.lp1.hiprint',
         qrLink: '../QR/android/Android_pro_qr.png',
-        latestUpgrade: 'Android v5.8.5',
+        latestUpgrade: 'Android v5.9.0',
         updateList: [
-          'Russisch und Portugiesisch hinzugefügt',
-          'Bestehende Übersetzungen und Lokalisierungen optimiert',
-          'Weitere bekannte Probleme behoben',
+          'Verbesserte Lasersicherheitsfunktionen für LaserPecker-Produkte.',
+          'Lokalisierung optimiert.',
+          'Anzeige der Frequenzeinheit in den LP5-Parametereinstellungen hinzugefügt.',
+          'Problem mit der Funktion "Extraktion von Umrissen" behoben.',
+          'Problem mit dem Verlust der Kameravorlage im Sicherheitsgehäuse behoben.',
+          'Bekannte Fehler behoben.',
         ]
       },
       community: {

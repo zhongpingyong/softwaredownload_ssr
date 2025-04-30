@@ -14,11 +14,11 @@ export default {
     subTitleBox2: '結果を向上させるための\n素材テストグリッド',
     subTitleBox3: '精密なコントロールのための\n複数のレイヤーパラメータ設定',
     winPath:
-    'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/windows/LaserPecker-Design-Space-Windows-2.7.2.exe',
+    'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/windows/LaserPecker-Design-Space-Windows-2.8.0.exe',
     macPath:
-      'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-M1-2.7.2.dmg',
+      'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-M1-2.8.0.dmg',
     macIntelPath:
-      'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-Mac-2.7.2.dmg',
+      'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-Mac-2.8.0.dmg',
     forIntelChips: 'For Intel chips',
     forAppleSilicon: 'For Apple Silicon',
     linkText1: 'Release Notes',
@@ -69,11 +69,15 @@ export default {
       pro: {
         appLink: 'https://apps.apple.com/us/app/laserpecker-design-space/id6445970960',
         qrLink: '../QR/ios/Apple_pro_qr.png',
-        latestUpgrade: 'IOS v5.8.5',
+        latestUpgrade: 'IOS v5.9.0',
         updateList: [
-          'ロシア語とポルトガル語に対応しました',
-          '既存のローカライズ言語を最適化しました',
-          'その他の既知の問題を修正しました',
+          'LaserPecker製品のレーザー安全機能を強化しました。',
+          'ローカライゼーションを最適化しました。',
+          'LP5パラメーター設定画面に単位表示を追加しました。',
+          'セーフティエンクロージャーでのカメラテンプレート消失問題を修正しました。',
+          '電動スタンドのリフト制御が連続して作動する問題を修正しました。',
+          '「アウトライン」テキストスタイル表示の問題を修正しました。',
+          '既知のバグを修正しました。',
         ]
       },
       community: {
@@ -89,11 +93,14 @@ export default {
       pro: {
         appLink: 'https://play.google.com/store/apps/details?id=com.hingin.lp1.hiprint',
         qrLink: '../QR/android/Android_pro_qr.png',
-        latestUpgrade: 'Android v5.8.5',
+        latestUpgrade: 'Android v5.9.0',
         updateList: [
-          'ロシア語とポルトガル語に対応しました',
-          '既存のローカライズ言語を最適化しました',
-          'その他の既知の問題を修正しました',
+          'LaserPecker製品のレーザー安全機能を強化しました。',
+          'ローカライゼーションを最適化しました。',
+          'LP5パラメーター設定画面に単位表示を追加しました。',
+          '「アウトライン」機能に関する問題を修正しました。',
+          'セーフティエンクロージャーでのカメラテンプレート消失問題を修正しました。',
+          '既知のバグを修正しました。',
         ]
       },
       community: {

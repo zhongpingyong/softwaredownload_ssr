@@ -14,11 +14,11 @@ export default {
     subTitleBox2: 'Material Test Grid\nfor Better Results',
     subTitleBox3: 'Multiple Layer Parameter Settings\nfor Precision Control',
     winPath:
-    'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/windows/LaserPecker-Design-Space-Windows-2.7.2.exe',
+    'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/windows/LaserPecker-Design-Space-Windows-2.8.0.exe',
     macPath:
-      'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-M1-2.7.2.dmg',
+      'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-M1-2.8.0.dmg',
     macIntelPath:
-      'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-Mac-2.7.2.dmg',
+      'https://laserpecker-prod.oss-cn-hongkong.aliyuncs.com/apply/software/macos/LaserPecker-Design-Space-Mac-2.8.0.dmg',
     forIntelChips: 'For Intel chips',
     forAppleSilicon: 'For Apple Silicon',
     linkText1: 'Release Notes',
@@ -69,10 +69,14 @@ export default {
       pro: {
         appLink: 'https://apps.apple.com/us/app/laserpecker-design-space/id6445970960',
         qrLink: '../QR/ios/Apple_pro_qr.png',
-        latestUpgrade: 'IOS v5.8.5',
+        latestUpgrade: 'IOS v5.9.0',
         updateList: [
-          'Added support for Russian and Portuguese languages.',
-          'Optimize existing localized languages.',
+          'Enhanced laser safety features for LaserPecker products.',
+          'Optimized localization.',
+          'Added unit display for LP5 parameter settings.',
+          'Fixed issue with camera template loss on Safety Enclosure.',
+          'Fixed continuous Lift Control of the Electric Stand.',
+          'Fixed issue with "Outline" text style display.',
           'Fixed known bugs.',
         ]
       },
@@ -89,10 +93,13 @@ export default {
       pro: {
         appLink: 'https://play.google.com/store/apps/details?id=com.hingin.lp1.hiprint',
         qrLink: '../QR/android/Android_pro_qr.png',
-        latestUpgrade: 'Android v5.8.5',
+        latestUpgrade: 'Android v5.9.0',
         updateList: [
-          'Added support for Russian and Portuguese languages.',
-          'Optimize existing localized languages.',
+          'Enhanced laser safety features for LaserPecker products.',
+          'Optimized localization.',
+          'Added unit display for LP5 parameter settings.',
+          'Fixed issue with the "Outline" function.',
+          'Fixed issue with camera template loss on Safety Enclosure.',
           'Fixed known bugs.',
         ]
       },
